@@ -33,13 +33,30 @@ body {
 	-webkit-transform-origin: 100% 100%;
 	/*Or:*/
 	-webkit-transform-origin: bottom right;
+
 	/*Scaling in the x or y direction, or both*/
 	-webkit-transform: scaleX(1.5);
 	-webkit-transform: scaleY(1.5);
 	-webkit-transform: scale(1.5);
+
 	/*Skewing in x or y direction*/
 	-webkit-transform: skewX(45deg);
-	-webkit-transform: skewX(-45deg);
+	-webkit-transform: skewY(-45deg);
+
+	/*Translate function moves elements around on x or y axis from original position*/
+	-webkit-transform: translateX(200px);
+	-webkit-transform: translateX(-200px);
+	/*Moves it to the right or left 100% of elements size*/
+	-webkit-transform: translateX(100%);
+	-webkit-transform: translateY(-100%);
+	/*Moves element on x AND y axis. Similar to transform-origin, but works better performance wise, smoother animations*/
+	-webkit-transform: translate(300px, 100px);
+	-webkit-transform: translate(-200%, -80%);
+
+
+
+
+
 
 
 
