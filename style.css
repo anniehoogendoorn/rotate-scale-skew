@@ -53,6 +53,21 @@ body {
 	-webkit-transform: translate(300px, 100px);
 	-webkit-transform: translate(-200%, -80%);
 
+	/*Combining all together*/
+	-webkit-transform: scale(1.5) rotate(25deg) translate(50%, -25%);
+	/*Or*/
+	-webkit-transform: scale(1.5) rotate(360deg) translate(50%);
+	/*All vendor prefixes for Safari, IE9, and older versions of Firefox and Opera*/
+	-moz-transform: scale(1.5) rotate(360deg) translate(50%);
+	-ms-transform: scale(1.5) rotate(360deg) translate(50%);
+	-o-transform: scale(1.5) rotate(360deg) translate(50%);
+	transform: scale(1.5) rotate(360deg) translate(50%);
+
+
+
+
+
+
 
 
 
