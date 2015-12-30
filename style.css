@@ -29,10 +29,20 @@ body {
 	-webkit-transform: rotate(-45deg);
 	-webkit-transform: rotate(.5turn);
 	-webkit-transform: rotate(1turn);
-	/*Rotate's the image from specified x an y origins (from the- default- center)*/
+	/*Rotate's the image from specified x an y origins (from the- default- center). Also affects scale and skew*/
 	-webkit-transform-origin: 100% 100%;
 	/*Or:*/
 	-webkit-transform-origin: bottom right;
+	/*Scaling in the x or y direction, or both*/
+	-webkit-transform: scaleX(1.5);
+	-webkit-transform: scaleY(1.5);
+	-webkit-transform: scale(1.5);
+	/*Skewing in x or y direction*/
+	-webkit-transform: skewX(45deg);
+	-webkit-transform: skewX(-45deg);
+
+
+
 
 
 
